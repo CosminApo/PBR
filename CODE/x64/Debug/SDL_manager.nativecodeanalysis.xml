@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\contrib\msvc15-windows-x86\include\SDL2\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>SDL_PointInRect</FUNCTION>
+    <DECORATED>SDL_PointInRect</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\contrib\msvc15-windows-x86\include\assimp\</FILEPATH>
+      <FILENAME>types.h</FILENAME>
+      <LINE>358</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>aiString::Append</FUNCTION>
+    <DECORATED>?Append@aiString@@QEAAXPEBD@Z</DECORATED>
+    <FUNCLINE>353</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\contrib\msvc15-windows-x86\include\assimp\</FILEPATH>
+      <FILENAME>types.h</FILENAME>
+      <LINE>362</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>aiString::Append</FUNCTION>
+    <DECORATED>?Append@aiString@@QEAAXPEBD@Z</DECORATED>
+    <FUNCLINE>353</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\contrib\msvc15-windows-x86\include\assimp\</FILEPATH>
+      <FILENAME>light.h</FILENAME>
+      <LINE>241</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiLightSourceType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiLight::{ctor}</FUNCTION>
+    <DECORATED>??0aiLight@@QEAA@XZ</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\contrib\msvc15-windows-x86\include\assimp\</FILEPATH>
+      <FILENAME>material.h</FILENAME>
+      <LINE>632</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiPropertyTypeInfo' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiMaterialProperty::{ctor}</FUNCTION>
+    <DECORATED>??0aiMaterialProperty@@QEAA@XZ</DECORATED>
+    <FUNCLINE>628</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\contrib\msvc15-windows-x86\include\assimp\</FILEPATH>
+      <FILENAME>material.h</FILENAME>
+      <LINE>1437</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiReturn' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiGetMaterialFloat</FUNCTION>
+    <DECORATED>aiGetMaterialFloat</DECORATED>
+    <FUNCLINE>1431</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\contrib\msvc15-windows-x86\include\assimp\</FILEPATH>
+      <FILENAME>material.inl</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiTextureType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiMaterial::GetTexture</FUNCTION>
+    <DECORATED>?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\contrib\msvc15-windows-x86\include\assimp\</FILEPATH>
+      <FILENAME>material.inl</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiTextureMapping' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiMaterial::GetTexture</FUNCTION>
+    <DECORATED>?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\contrib\msvc15-windows-x86\include\assimp\</FILEPATH>
+      <FILENAME>material.inl</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiTextureOp' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiMaterial::GetTexture</FUNCTION>
+    <DECORATED>?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\contrib\msvc15-windows-x86\include\assimp\</FILEPATH>
+      <FILENAME>material.inl</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiTextureMapMode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiMaterial::GetTexture</FUNCTION>
+    <DECORATED>?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z</DECORATED>
+    <FUNCLINE>67</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\contrib\msvc15-windows-x86\include\assimp\</FILEPATH>
+      <FILENAME>anim.h</FILENAME>
+      <LINE>334</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiAnimBehaviour' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiNodeAnim::{ctor}</FUNCTION>
+    <DECORATED>??0aiNodeAnim@@QEAA@XZ</DECORATED>
+    <FUNCLINE>327</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\contrib\msvc15-windows-x86\include\assimp\</FILEPATH>
+      <FILENAME>metadata.h</FILENAME>
+      <LINE>99</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiMetadataType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>GetAiType</FUNCTION>
+    <DECORATED>?GetAiType@@YA?AW4aiMetadataType@@_N@Z</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

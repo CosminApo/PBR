@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\contrib\msvc15-windows-x86\include\SDL2\</FILEPATH>
+      <FILENAME>SDL_rect.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'SDL_bool' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>SDL_PointInRect</FUNCTION>
+    <DECORATED>SDL_PointInRect</DECORATED>
+    <FUNCLINE>99</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\src\</FILEPATH>
+      <FILENAME>IBL.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'IBL::hdrtex' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>IBL::{ctor}</FUNCTION>
+    <DECORATED>??0IBL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>IBL::hdrtex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\src\</FILEPATH>
+      <FILENAME>IBL.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'IBL::captureFBO' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>IBL::{ctor}</FUNCTION>
+    <DECORATED>??0IBL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>IBL::captureFBO</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\src\</FILEPATH>
+      <FILENAME>IBL.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'IBL::captureRBO' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>IBL::{ctor}</FUNCTION>
+    <DECORATED>??0IBL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>IBL::captureRBO</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\src\</FILEPATH>
+      <FILENAME>IBL.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'IBL::envCubemap' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>IBL::{ctor}</FUNCTION>
+    <DECORATED>??0IBL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>IBL::envCubemap</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\src\</FILEPATH>
+      <FILENAME>IBL.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'IBL::irradianceMap' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>IBL::{ctor}</FUNCTION>
+    <DECORATED>??0IBL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>IBL::irradianceMap</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\src\</FILEPATH>
+      <FILENAME>IBL.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'IBL::prefilterMap' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>IBL::{ctor}</FUNCTION>
+    <DECORATED>??0IBL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>IBL::prefilterMap</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Cosmin\Desktop\Final part\glsandbox\src\</FILEPATH>
+      <FILENAME>IBL.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'IBL::brdfLUTTexture' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>IBL::{ctor}</FUNCTION>
+    <DECORATED>??0IBL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>IBL::brdfLUTTexture</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

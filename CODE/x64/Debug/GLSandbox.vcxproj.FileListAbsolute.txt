@@ -1,0 +1,8 @@
+C:\Users\Cosmin\Desktop\glsandbox\x64\Debug\GLSandbox.exe
+C:\Users\Cosmin\Desktop\glsandbox\x64\Debug\GLSandbox.pdb
+D:\unis\glsandbox\x64\Debug\GLSandbox.exe
+D:\unis\glsandbox\x64\Debug\GLSandbox.pdb
+C:\Users\Cosmin\Desktop\GCP\glsandbox\x64\Debug\GLSandbox.exe
+C:\Users\Cosmin\Desktop\GCP\glsandbox\x64\Debug\GLSandbox.pdb
+C:\Users\Cosmin\Desktop\Final part\glsandbox\x64\Debug\GLSandbox.exe
+C:\Users\Cosmin\Desktop\Final part\glsandbox\x64\Debug\GLSandbox.pdb
